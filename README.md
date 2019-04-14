@@ -26,9 +26,9 @@ You will have 15 seconds to respond to each clue. At the end of each 15-second i
 [Jeopardy Game Example](http://www.freewebarcade.com/game/jeopardy/)
 
 # Technologies Used
-HTML5
-CSS3
-jQuery
+HTML5 <br>
+CSS3 <br>
+jQuery <br>
 
 # Next Version
 Computer AI <br>
