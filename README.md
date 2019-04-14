@@ -25,11 +25,11 @@ You will have 15 seconds to respond to each clue. At the end of each 15-second i
 [Trello link](https://trello.com/b/Tst2WNFz/sei-21-jeopardy-game)
 
 # Wireframes
-(wireframes/landing.jpg)
-(wireframes/themes.jpg)
-(wireframes/gameboard.jpg)
-(wireframes/questions.jpg)
-(wireframes/dailydouble.jpg)
+![alt text](wireframes/landing.jpg)
+![alt text](wireframes/themes.jpg)
+![alt text](wireframes/gameboard.jpg)
+![alt text](wireframes/questions.jpg)
+![alt text](wireframes/dailydouble.jpg)
 
 # References Used
 [Jeopardy Game Example](http://www.freewebarcade.com/game/jeopardy/)
