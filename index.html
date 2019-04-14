@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to Jeopardy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.min.css">
+</head>
+
+<body>
+    <source autoplay id="themesong">
+    <source src="audio/themesong.mp3" type="audio/mpeg">
+    </audio>
+    <div class="splash">
+        <h1>Jeopardy!</h1>
+
+
+        <div class="menu">
+            <h2>Main Menu</h2>
+
+            <div class="menuoptions">
+                <!-- <button> -->
+                <a href="themes/choose.html">
+                    New Game
+                </a>
+            <!-- </button>
+            <button> -->
+                <a href="#instructions">
+                    Instructions
+                </a>
+            <!-- </button> -->
+            </div>
+        </div>
+
+        <!-- ======Modal fun==== -->
+        <div class="modal" id="instructions">
+            <div>
+                <a href="index.html" title="Close" class="close">
+                    <!-- <button> -->
+                    Close
+                    <!-- </button> -->
+                </a>
+                <span>Description</span> <br> <br>
+                <div>Select a dollar amount below one of the categories. Buzz in with the correct response to win that
+                    amount, or a wrong response will subtract the amount.
+                    <br> <br>
+                    There are Daily Doubles placed at random on the board. Only the player who selects a SPECIAL may
+                    answer it. Prior to answering, they must make a wager. The minimum wager is $5 and the maximum wager
+                    is the amount they have accumulated in the bank.
+                    <br> <br>
+                    Player 1 uses Q to buzz in
+                    Player 2 uses P to buzz in
+                    <br><br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

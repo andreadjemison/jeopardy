@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to Jeopardy</title>
+    <link rel="stylesheet" href="../style.css">
+    <!-- <link rel="stylesheet" href="animate.min.css"> -->
+</head>
+
+<body>
+
+    <div class="landing">
+        <h1>Jeopardy!</h1>
+
+        <button id="choose">
+            Choose Your <br> Theme!
+        </button>
+
+        <div class="themes">
+            <div class="theme1">
+                <a href="#officeplayer">
+                    <button id="one">
+                        The <br> Office
+                    </button>
+                </a>
+            </div>
+            <div class="theme2">
+                <a href="90s.html">
+                    <button id="two">
+                        90's R 'n B <br> Hip Hop
+                    </button>
+                </a>
+            </div>
+            <div class="theme3">
+                <a href="sei.html">
+                    <button id="three">
+                        HTML <br>CSS <br>Javascript
+                    </button>
+                </a>
+            </div>
+        </div>
+
+        <!-- ======Modal fun==== -->
+        <div class="modal officemodal" id="officeplayer">
+            <div>
+
+                <span>Player 1</span> <br> <br>
+                <div>
+                    <form>
+                    <input type="text" placeholder="Enter Player 1 Name">
+                </form>
+                    <a href="#continue" title="Close" class="continue">
+                        Continue
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="../app.js"></script>
+</body>
+
+</html>
