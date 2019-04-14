@@ -1,5 +1,7 @@
 # Jeopardy Project
-I wanted to recreate an authentic jeopardy game 
+I wanted to recreate an authentic jeopardy game with my own spin on it.
+
+[Play Game](http://jovial-brown-74b88b.netlify.com/)
 
 # Instructions
 Select a dollar amount below one of the categories. Buzz in with the correct response to win that amount, or a wrong response will subtract the amount.
@@ -21,6 +23,13 @@ You will have 15 seconds to respond to each clue. At the end of each 15-second i
 
 # Project Planning - Trello
 [Trello link](https://trello.com/b/Tst2WNFz/sei-21-jeopardy-game)
+
+# Wireframes
+(wireframes/landing.jpg)
+(wireframes/themes.jpg)
+(wireframes/gameboard.jpg)
+(wireframes/questions.jpg)
+(wireframes/dailydouble.jpg)
 
 # References Used
 [Jeopardy Game Example](http://www.freewebarcade.com/game/jeopardy/)

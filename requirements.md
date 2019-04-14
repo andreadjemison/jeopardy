@@ -1,70 +1,48 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Requirements
+# Project Evaluation
 
-In order to get a satisfactory score, by the time you present your project, you **must** meet the following requirements:
+You must meet all of the following requirements to pass project 1.
 
-### Deployment
-Be deployed online, where the rest of the world can access it. We suggest you deploy your project to [BitBalloon](https://www.bitballoon.com/).
-* Deploy on your public Github page, not Github Enterprise.
+## Technical Requirements
 
+- [ ] Project code is pushed to a public Git repository
+- [ ] Project is deployed on the internet
+- [ ] Uses HTML, CSS, and JS for game solution
+- [ ] Use Javascript vanilla API or jQuery API for DOM manipulation
+- [ ] Uses Event listening to handle user interaction
 
-### Version Control
-Demonstrate using version control by:
-* Sharing your work through a git repository hosted on Github.
-* Making frequent, cohesive commits dating back to the **first day**
-of the project week. A **minimum** of 30 commits is required!
+### Done
 
-### Documentation
-* A `README.md` file containing:
-  - A Project description
-  - A Link to the Deployed App
-  - A Link to the Trello Board
-  - A Link to any Wirefames or Mockups (or inline photos / screenshots will work too!)
-  - A list of technologies, libraries, and/or frameworks used in the project, such as `Bootstrap`, `jQuery`, or `Animate.css`
-  - What you would like to add in version 2
-* Wireframes or Mockups -- what does the app look like?
-  - Simple: take a picture of a whiteboard drawing
-  - Advanced: use a tool such as [Balsamiq](https://balsamiq.com/) or [Mockingbird](https://gomockingbird.com/home)
-* User Stories in a PUBLIC [Trello](https://trello.com/) board
-  - You should have a Trello board tracking your User Stories
-  - Board lists should include:
-    * Backlog
-    * Todo
-    * In Progress
-    * Under Review
-    * Done
-    * Icebox
+## Creativity and Interface
 
-### Sample Project `README.md` files:
-* [Tic-Tac-Toe](https://github.com/iamsydsmith/tic-tac-toe)
-* [FootUp](https://github.com/wschaeferiii/footup)
+- [ ] Uses CSS to style DOM elements
+- [ ] Uses CSS to structure DOM element layout on screen
 
-### Technical Specifications
-Your app **must**:
-* Use Javascript or jQuery for DOM manipulation
-* Switch turns between two players and/or use some A.I. to control the game (when applicable).
-* Design logic for winning & visually display which player won
-* Include separate HTML / CSS / JavaScript files
-* Write high quality code:
-  - Follow accepted naming conventions
-  - Consistent indentation
-  - Well-structured and readable code
-  - Semantic naming of variables, functions, CSS classes, etc.
-  - Short and clear functions that _do one thing_
-  - Efficient code- if you have your MVP, refactor
-  - DRY (Don't Repeat Yourself) code
-  - Comment your code (pseudo code)
+### Done
 
-### DO NOT!!
-Your app **must not**:
-* Delete your repository at any time or start over.
-* Rely on refreshing the page for any functionality.
-* Have any user-facing bugs.
-* Display non-functional buttons, nor buttons that do not successfully complete a task.
-* Show actions at inappropriate times (example: sign out button when not signed in).
-* Forms not clearing at appropriate times (example: sign up form not clearing after success).
-* Allow the same game to be played after a player has won or tied.
-* Allow players to move in the same square more than once (if applicable).
-* Change players when an invalid move is made (if applicable).
-* Use alerts for anything.
-* Display errors or warnings in the console.
-* Display debugging messages in the console.
+## Code Quality
+
+- [ ] HTML, CSS, and JS are in seperate files
+- [ ] Names (variables, functions, HTML ids, HTML classes, etc.) follow a naming convention
+- [ ] Consistent indentation
+
+### Done
+
+## Functionality
+
+- [ ] Render a game in the browser
+- [ ] User can play single iteration of game
+- [ ] User can win/tie when winning conditions are met
+- [ ] User can lose when losing conditions are met
+
+## Planning / Process / Submission
+
+- [ ] At least 30 git commits
+- [ ] Project board (Trello or Github Projects and Issues) are used throughout project week
+- [ ] Project board must have a minimum of 3 columns noting to-do, doing, and done tasks
+- [ ] Has Readme file
+- [ ] Readme file has link to deployed app  
+- [ ] Readme file has link to project board
+- [ ] Readme file has whiteboarding image
+- [ ] Readme file has wireframe images
+
+### Done
