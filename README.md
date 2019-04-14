@@ -1,7 +1,7 @@
 # Jeopardy Project
 I wanted to recreate an authentic jeopardy game 
 
-#Instructions
+# Instructions
 Select a dollar amount below one of the categories. Buzz in with the correct response to win that amount, or a wrong response will subtract the amount.
 
 There are Daily Doubles placed at random on the board. Only the player who selects a SPECIAL may answer it. Prior to answering, they must make a wager. The minimum wager is $5 and the maximum wager is the amount they have accumulated in the bank.
