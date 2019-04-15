@@ -540,7 +540,7 @@ let officeCat = [
         }]
     }]
 
-
+// category 1
 $('#prank1').click(() => {
     $('.gameboard').css("visibility", "hidden")
     console.log(officeCat[0].questions[0])
@@ -583,4 +583,94 @@ $('#ms4').click(() => {
 
 $('#ms5').click(() => {
     console.log(officeCat[1].questions[4])
+})
+// category 3
+
+$('#or1').click(() => {
+    $('.gameboard').css("visibility", "hidden")
+    console.log(officeCat[2].questions[0])
+    $('p').css('display', 'flex')
+    $('p').data(officeCat[2].questions[0])
+})
+
+$('#or2').click(() => {
+    console.log(officeCat[2].questions[1])
+})
+
+$('#or3').click(() => {
+    console.log(officeCat[2].questions[2])
+})
+
+$('#or4').click(() => {
+    console.log(officeCat[2].questions[3])
+})
+
+$('#or5').click(() => {
+    console.log(officeCat[2].questions[4])
+})
+// category 4
+$('#emp1').click(() => {
+    console.log(officeCat[3].questions[0])
+})
+
+$('#emp2').click(() => {
+    console.log(officeCat[3].questions[1])
+})
+
+$('#emp3').click(() => {
+    console.log(officeCat[3].questions[2])
+})
+
+$('#emp4').click(() => {
+    $('.gameboard').hide()
+    console.log(officeCat[3].questions[3])
+})
+
+$('#emp5').click(() => {
+    console.log(officeCat[3].questions[4])
+})
+// category 5
+
+$('#or1').click(() => {
+    $('.gameboard').css("visibility", "hidden")
+    console.log(officeCat[4].questions[0])
+    $('p').css('display', 'flex')
+    $('p').data(officeCat[4].questions[0])
+})
+
+$('#or2').click(() => {
+    console.log(officeCat[4].questions[1])
+})
+
+$('#or3').click(() => {
+    console.log(officeCat[4].questions[2])
+})
+
+$('#or4').click(() => {
+    console.log(officeCat[4].questions[3])
+})
+
+$('#or5').click(() => {
+    console.log(officeCat[4].questions[4])
+})
+// category 6
+$('#emp1').click(() => {
+    console.log(officeCat[5].questions[0])
+})
+
+$('#emp2').click(() => {
+    console.log(officeCat[5].questions[1])
+})
+
+$('#emp3').click(() => {
+    console.log(officeCat[5].questions[2])
+})
+
+$('#emp4').click(() => {
+    $('.gameboard').hide()
+    console.log(officeCat[5].questions[3])
+})
+
+$('#emp5').click(() => {
+    console.log(officeCat[5].questions[4])
 })
