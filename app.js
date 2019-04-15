@@ -648,29 +648,29 @@ $('#qu5').click(() => {
 })
 // category 5
 
-$('#or1').click(() => {
+$('#man1').click(() => {
     $('.gameboard').css("visibility", "hidden")
     console.log(officeCat[4].questions[0])
     // $('p').css('display', 'flex')
     // $('p').data(officeCat[4].questions[0])
 })
 
-$('#or2').click(() => {
+$('#man2').click(() => {
         $('.gameboard').css("visibility", "hidden")
     console.log(officeCat[4].questions[1])
 })
 
-$('#or3').click(() => {
+$('#man3').click(() => {
         $('.gameboard').css("visibility", "hidden")
     console.log(officeCat[4].questions[2])
 })
 
-$('#or4').click(() => {
+$('#man4').click(() => {
         $('.gameboard').css("visibility", "hidden")
     console.log(officeCat[4].questions[3])
 })
 
-$('#or5').click(() => {
+$('#man5').click(() => {
         $('.gameboard').css("visibility", "hidden")
     console.log(officeCat[4].questions[4])
 })
@@ -692,6 +692,7 @@ $('#emp3').click(() => {
 
 $('#emp4').click(() => {
         $('.gameboard').css("visibility", "hidden")
+        // console.log()
     console.log(officeCat[5].questions[3])
 })
 
