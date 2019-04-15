@@ -24,104 +24,58 @@ $("#choose").on('click',() => {
     $(".theme2").toggleClass("theme2-active")
     $(".theme3").toggleClass("theme3-active")
 })
-// $('#player1input').click(()=>{
-//     let input = $('#player1').val()
-//     console.log(input)
-//     $('#player1name').html(input)
-// })
-// $('#player2input').click(()=>{
-//     let input = $('#player2').val()
-//     console.log(input)
-//     $('#player2name').text(input)
-// })
-// $('#one').click( ()=>{
-//     swal({
-//         title: "Name of Player 1",
-//         text: "",
-//         conyent: "input",
-//         // closeOnConfirm: false,
-//         inputPlaceholder: "Player 1"
-//       }
-    //   (input)=> {
-    //     if (input === false) return false;
-        // if (input === "") {
-        //   swal.showInputError("You need to write something!");
-        //   return false
-        // }
-        // swal("Nice!", "You wrote: " + input, "success")
-    // )
-    // })
 
-    // $('.#one').on('click', ()=>{
-    //     event.preventDefault();
-    //     $('.officemodal').toggleClass('is-visible');
-    //   });
-    // $('#officemodal').on()
 
-// $(() => {
-//     for (let i = 0; i < 6; i++) {
-//         $('.cat').append('<div class="categories"></div>')
-//     }
-// })
-
-// $(() => {
-//     for (let i = 0; i < 6; i++) {
-//         $('.row').append('<div class="questions"></div>')
-//         for (let i = 0; i < 5; i++) {
-//             $('.ques').append('<div class="questions"></div>')
-//         }
-//     }
-// })
-
-let officeCat = [
+// pranks category
+let officeCat = 
     {
         'name': 'pranks',
         'questions': [{
             'value': 100,
             'question': "In what food did Jim put Dwight's stapler in?",
             "answers": [{
-                "one": "Pie",
+                "a": "Pie",
                 "right": false
             }, {
-                "two": "Jello",
+                "b": "Jello",
                 "right": true
             }, {
-                "three": "Pudding",
+                "c": "Pudding",
                 "right": false
             }, {
-                "four": "Cake",
+                "d": "Cake",
                 "right": false
             }]
         },{
             'value': 200,
             'question': "Jim sends faxes to Dwight from who?",
             "answers": [{
-                "one": "Abe Lincoln",
+                "a": "Abe Lincoln",
                 "right": false
             }, {
-                "two": "A high ranking official from the FBI",
+                "b": "A high ranking official from the FBI",
                 "right": false
             }, {
-                "three": "Hitler",
+                "c": "Hitler",
                 "right": false
             }, {
-                "four": "Future Dwight",
+                "d": "Future Dwight",
                 "right": true
             }]
         },{
             'value': 300,
             'question': "Where does Jim relocate Dwight's desk to?",
             "answers": [{
-                "one": "The men's bathroom",
+                "a": "The men's bathroom",
                 "right": true
             }, {
-                "two": "The women's bathroom",
+                "b": "The women's bathroom",
                 "right": false
             }, {
-                "three": "The roof",
+                "c": "The roof",
                 "right": false
             }, {
-                "four": "The elevator",
+                "d": "The elevator",
                 "right": false
             }]
         },{
@@ -131,13 +85,13 @@ let officeCat = [
                 "one": "Dwight",
                 "right": true
             }, {
-                "two": "The Sith Lord",
+                "b": "The Sith Lord",
                 "right": false
             }, {
-                "three": "Pimp",
+                "c": "Pimp",
                 "right": false
             }, {
-                "four": "The Devil",
+                "d": "The Devil",
                 "right": false
             }]
         },{
@@ -147,17 +101,57 @@ let officeCat = [
                 "one": "Secret Service",
                 "right": false
             }, {
-                "two": "FBI",
+                "b": "FBI",
                 "right": false
             }, {
-                "three": "CIA",
+                "c": "CIA",
                 "right": true
             }, {
-                "four": "PETA",
+                "d": "PETA",
                 "right": false
             }]
         }
         ]
     }
-]
+console.log(officeCat)
 
+    const allquestions = () =>{
+        for(i=0; i<officeCat.questions.length; i++){
+            // console.log(officeCat.questions[i])
+            // console.log(officeCat.questions[i].answers)
+        }
+        // console.log(officeCat.questions[i])
+    }
+    $('#prank1').click(()=>{
+        console.log(officeCat.questions[0])
+        // allquestions()
+    })
+
+    $('#prank2').click(()=>{
+        console.log(officeCat.questions[1])
+        // allquestions()
+    })
+
+    $('#prank3').click(()=>{
+        console.log(officeCat.questions[2])
+        // allquestions()
+    })
+
+    $('#prank4').click(()=>{
+        console.log(officeCat.questions[3])
+        // allquestions()
+    })
+
+    $('#prank5').click(()=>{
+        console.log(officeCat.questions[4])
+        // allquestions()
+    })
+
+    $(".open").on("click", function(){
+        $(".popup-overlay, .popup-content").addClass("active");
+      });
+      
+      //removes the "active" class to .popup and .popup-content when the "Close" button is clicked 
+      $(".close, .popup-overlay").on("click", function(){
+        $(".popup-overlay, .popup-content").removeClass("active");
+      });
