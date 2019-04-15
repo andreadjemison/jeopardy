@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../style.css">
     <!-- <link rel="stylesheet" href="animate.min.css"> -->
 </head>
- 
+
 <body>
 
     <div class="landing">
@@ -49,16 +49,31 @@
 
                 <span>Player 1</span> <br> <br>
                 <div>
-                    <form>
-                    <input type="text" placeholder="Enter Player 1 Name">
-                </form>
-                    <a href="#continue" title="Close" class="continue">
-                        Continue
-                    </a>
+                    <form action="office.html" method='post'>
+                        <input type="text" id='player1' placeholder="Enter Player 1 Name">
+
+                        <a href="#continue" title="Close" class="continue" id='player1input'>
+                            Continue
+                        </a>
+                    </form>
                 </div>
             </div>
         </div>
+        <div class="modal officemodal" id="continue">
+            <div>
 
+                <span>Player 2</span> <br> <br>
+                <div>
+                    <form action="office.html" method='POST'>
+                        <input autofocus type="text" id='player2' placeholder="Enter Player 2 Name">
+
+                        <a href="office.html" class="continue" id='player2input'>
+                            Play Game
+                        </a>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

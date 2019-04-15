@@ -24,7 +24,18 @@ $("#choose").on('click',() => {
     $(".theme2").toggleClass("theme2-active")
     $(".theme3").toggleClass("theme3-active")
 })
+$('#player1input').click(()=>{
+    let input = $('#player1').val()
+    console.log(input)
+    $('#player1name').html(input)
+    // console.log($('#player1name').val(input))
+})
+$('#player2input').click(()=>{
+    let input = $('#player2').val()
+    console.log(input)
+    $('#player2name').text(input)
 
+})
 // $('#one').click( ()=>{
 //     swal({
 //         title: "Name of Player 1",
