@@ -18,7 +18,7 @@
 
 
 // on click make themes visible and flip over
-$("#choose").click(() => {
+$("#choose").on('click',() => {
     $(".themes").css("display", "flex")
     $(".theme1").toggleClass("theme1-active")
     $(".theme2").toggleClass("theme2-active")
@@ -64,7 +64,7 @@ $("#choose").click(() => {
 //     }
 // })
 
-let officeCat = {[
+let officeCat = [
     {
         'name': 'pranks',
         'questions': [{
@@ -150,5 +150,5 @@ let officeCat = {[
         }
         ]
     }
-]}
+]
 
