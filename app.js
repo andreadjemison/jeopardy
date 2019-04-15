@@ -117,8 +117,7 @@ let officeCat = [
             }]
         }
         ]
-    },
-    {
+    },{
         'name': 'mikescott',
         'questions': [{
             'value': 100,
@@ -284,8 +283,9 @@ let officeCat = [
                 "d": "PETA",
                 "right": false
             }]
-        },
-        {
+        }
+        ]
+    }, {
             'name': 'employees',
             'questions': [{
                 'value': 100,
@@ -537,9 +537,9 @@ let officeCat = [
                 }]
             }
             ]
-        }]
-    }]
-
+        }
+    ]
+console.log(officeCat)
 // category 1
 $('#prank1').click(() => {
     $('.gameboard').css("visibility", "hidden")
