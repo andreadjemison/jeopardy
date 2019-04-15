@@ -622,27 +622,27 @@ $('#or5').click(() => {
     console.log(officeCat[2].questions[4])
 })
 // category 4
-$('#emp1').click(() => {
+$('#qu1').click(() => {
         $('.gameboard').css("visibility", "hidden")
     console.log(officeCat[3].questions[0])
 })
 
-$('#emp2').click(() => {
+$('#qu2').click(() => {
         $('.gameboard').css("visibility", "hidden")
     console.log(officeCat[3].questions[1])
 })
 
-$('#emp3').click(() => {
+$('#qu3').click(() => {
         $('.gameboard').css("visibility", "hidden")
     console.log(officeCat[3].questions[2])
 })
 
-$('#emp4').click(() => {
+$('#qu4').click(() => {
         $('.gameboard').css("visibility", "hidden")
     console.log(officeCat[3].questions[3])
 })
 
-$('#emp5').click(() => {
+$('#qu5').click(() => {
         $('.gameboard').css("visibility", "hidden")
     console.log(officeCat[3].questions[4])
 })
