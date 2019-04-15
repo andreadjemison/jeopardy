@@ -457,34 +457,34 @@ let officeCat = [
             'name': 'management',
             'questions': [{
                 'value': 100,
-                'question': "Who's car is hit with a watermelon during the safety training episode?",
+                'question': "Who became manager just by taking charge and giving raises?",
                 "answers": [{
-                    "a": "Stanley",
+                    "a": "Nellie Bertram",
                     "right": true
                 }, {
-                    "b": "Jello",
-                    "right": true
-                }, {
-                    "c": "Pudding",
+                    "b": "Dwight",
                     "right": false
                 }, {
-                    "d": "Cake",
+                    "c": "Robert California",
+                    "right": false
+                }, {
+                    "d": "Andy Bernard",
                     "right": false
                 }]
             }, {
                 'value': 200,
-                'question': "Jim sends faxes to Dwight from who?",
+                'question': "In the last episode who was manager of the Scranton branch?",
                 "answers": [{
-                    "a": "Abe Lincoln",
+                    "a": "Ed Truck",
                     "right": false
                 }, {
-                    "b": "A high ranking official from the FBI",
+                    "b": "Charles Miner",
                     "right": false
                 }, {
-                    "c": "Hitler",
+                    "c": "Michael",
                     "right": false
                 }, {
-                    "d": "Future Dwight",
+                    "d": "Dwight",
                     "right": true
                 }]
             }, {
@@ -584,12 +584,3 @@ $('#ms4').click(() => {
 $('#ms5').click(() => {
     console.log(officeCat[1].questions[4])
 })
-//appends an "active" class to .popup and .popup-content when the "Open" button is clicked
-$(".questions").on("click", () => {
-    $(".popup-overlay, .popup-content").addClass("active");
-});
-
-//removes the "active" class to .popup and .popup-content when the "Close" button is clicked 
-$(".close, .popup-overlay").on("click", function () {
-    $(".popup-overlay, .popup-content").removeClass("active");
-});
