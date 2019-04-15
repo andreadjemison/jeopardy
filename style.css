@@ -373,7 +373,9 @@ h2{
     font-size: 1.5em;
     padding-left: 50px;
 }
-/* ==============90s theme============ */
-.ninetys{
-
+p{
+    color: white;
+    height: 100vh;
+    display: none;
+    font-size: 2em;
 }
