@@ -543,7 +543,7 @@ let officeCat = [
 $('#prank1').click(() => {
     $('.gameboard').css("visibility", "hidden")
     console.log(officeCat[0].questions[0])
-    $('#prank1ques').append(officeCat[0].questions[0])
+    $('p').append('{officeCat[0].questions[0]}')
     $('#prank1ques').css('display', 'flex')
     
 })
