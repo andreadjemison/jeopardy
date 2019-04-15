@@ -539,13 +539,13 @@ let officeCat = [
             ]
         }
     ]
-console.log(officeCat)
 // category 1
 $('#prank1').click(() => {
     $('.gameboard').css("visibility", "hidden")
     console.log(officeCat[0].questions[0])
-    $('p').css('display', 'flex')
-    $('p').data(officeCat[0].questions[0])
+    $('#prank1ques').append(officeCat[0].questions[0])
+    $('#prank1ques').css('display', 'flex')
+    
 })
 
 $('#prank2').click(() => {
@@ -556,6 +556,7 @@ $('#prank2').click(() => {
 $('#prank3').click(() => {
         $('.gameboard').css("visibility", "hidden")
     console.log(officeCat[0].questions[2])
+
 })
 
 $('#prank4').click(() => {
@@ -700,3 +701,5 @@ $('#emp5').click(() => {
         $('.gameboard').css("visibility", "hidden")
     console.log(officeCat[5].questions[4])
 })
+
+// =====append value to score
